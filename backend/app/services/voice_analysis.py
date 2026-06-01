@@ -28,7 +28,7 @@ try:
     import librosa
     import soundfile as sf
     LIBROSA_AVAILABLE = True
-except ImportError:
+except (ImportError, OSError):
     LIBROSA_AVAILABLE = False
 
 
