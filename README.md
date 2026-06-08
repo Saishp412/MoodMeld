@@ -92,11 +92,15 @@ The application is built on a decoupled **client-server architecture**, utilizin
 
 ## Application Screenshots
 
-| Dashboard Analytics | Voice Conversational UI |
+| Landing Page | Dashboard |
 | :---: | :---: |
-| *[Replace with Image]* | *[Replace with Image]* |
-| **Activity Recommendations** | **Clinical PDF Report** |
-| *[Replace with Image]* | *[Replace with Image]* |
+| ![Landing Page](screenshots/Screenshot%20(220).png) | ![Dashboard 1](screenshots/Screenshot%20(221).png) |
+| **Dashboard (Alt View)** | **AI Companion** |
+| ![Dashboard 2](screenshots/Screenshot%20(222).png) | ![AI Companion](screenshots/Screenshot%20(223).png) |
+| **Analytics Overview** | **Analytics PDF Report** |
+| ![Analytics](screenshots/Screenshot%20(224).png) | ![Report 1](screenshots/Screenshot%20(225).png) |
+| **Analytics PDF Report (Cont.)** | **Mood Recommendations** |
+| ![Report 2](screenshots/Screenshot%20(226).png) | ![Recommendations](screenshots/Screenshot%20(227).png) |
 
 ---
 
