@@ -94,13 +94,13 @@ The application is built on a decoupled **client-server architecture**, utilizin
 
 | Landing Page | Dashboard |
 | :---: | :---: |
-| ![Landing Page](screenshots/Screenshot%20(220).png) | ![Dashboard 1](screenshots/Screenshot%20(221).png) |
+| ![Landing Page](Screenshots/Screenshot%20(220).png) | ![Dashboard 1](Screenshots/Screenshot%20(221).png) |
 | **Dashboard (Alt View)** | **AI Companion** |
-| ![Dashboard 2](screenshots/Screenshot%20(222).png) | ![AI Companion](screenshots/Screenshot%20(223).png) |
+| ![Dashboard 2](Screenshots/Screenshot%20(222).png) | ![AI Companion](Screenshots/Screenshot%20(223).png) |
 | **Analytics Overview** | **Analytics PDF Report** |
-| ![Analytics](screenshots/Screenshot%20(224).png) | ![Report 1](screenshots/Screenshot%20(225).png) |
+| ![Analytics](Screenshots/Screenshot%20(224).png) | ![Report 1](Screenshots/Screenshot%20(225).png) |
 | **Analytics PDF Report (Cont.)** | **Mood Recommendations** |
-| ![Report 2](screenshots/Screenshot%20(226).png) | ![Recommendations](screenshots/Screenshot%20(227).png) |
+| ![Report 2](Screenshots/Screenshot%20(226).png) | ![Recommendations](Screenshots/Screenshot%20(227).png) |
 
 ---
 
