@@ -15,10 +15,10 @@ MoodMeld is a full-stack, AI-driven mental wellness application designed to serv
 
 ---
 
-## 🎯 The Problem
+## The Problem
 Mental health resources are often expensive, inaccessible, or lack immediate availability. Individuals struggling with stress, burnout, or anxiety need a safe, judgment-free space to express themselves and receive instant, constructive feedback. Existing journaling apps rely heavily on manual entry and fail to capture the nuanced emotional markers present in human speech and conversation.
 
-## 💡 Business Value
+## Business Value
 MoodMeld bridges the gap between passive journaling and active therapy by providing:
 - **Instant Empathy & Support:** A 24/7 conversational AI that listens and responds to emotional distress.
 - **Data-Driven Insights:** Automated tracking of emotional trends over time, helping users identify triggers.
@@ -27,7 +27,7 @@ MoodMeld bridges the gap between passive journaling and active therapy by provid
 
 ---
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 The application is built on a decoupled **client-server architecture**, utilizing Next.js for a highly responsive, SSR-capable frontend and FastAPI for a high-performance, asynchronous Python backend tailored for machine learning workloads.
 
@@ -70,7 +70,7 @@ The application is built on a decoupled **client-server architecture**, utilizin
 
 ---
 
-## 🚀 Key Features & Implementation Modules
+## Key Features & Implementation Modules
 
 ### 1. Multi-Modal Conversational AI
 - **Text & Voice Input:** Users can interact via standard text or record audio directly in the browser using the `MediaRecorder` API.
@@ -90,7 +90,7 @@ The application is built on a decoupled **client-server architecture**, utilizin
 
 ---
 
-## 📸 Application Screenshots
+## Application Screenshots
 
 | Dashboard Analytics | Voice Conversational UI |
 | :---: | :---: |
@@ -100,7 +100,7 @@ The application is built on a decoupled **client-server architecture**, utilizin
 
 ---
 
-## ⚙️ Installation & Workflow
+## Installation & Workflow
 
 ### Prerequisites
 - Node.js 18+
@@ -146,7 +146,7 @@ npm run dev
 
 ---
 
-## 📈 Results & Impact
+## Results & Impact
 - **Performance:** Asynchronous data fetching via Motor (MongoDB) and decoupled heavy ML tasks ensure API response times consistently under 300ms for text interactions.
 - **Scalability:** The containerized approach and separation of ML dependencies (making them optional for minimal cloud instances) allows for seamless deployment on serverless architectures like Vercel and cost-effective hosting platforms like Render.
 - **Resilience:** Implemented robust error handling and gracefully degrading fallbacks; if system-level audio libraries (`libsndfile`) are missing in production environments, the app bypasses acoustic analysis and relies purely on NLP without crashing.
